@@ -1,0 +1,6 @@
+framework module BorderButton {
+  umbrella header "BorderButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

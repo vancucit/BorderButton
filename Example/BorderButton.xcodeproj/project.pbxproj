@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* BorderButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		80B72BCDEC2CD302B1D3DCD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80B72BCDEC2CD302B1D3DCD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9A85568C96FF42F961B98312 /* Pods-BorderButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorderButton_Example.release.xcconfig"; path = "Target Support Files/Pods-BorderButton_Example/Pods-BorderButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9AAB469FF4FF875BDFFA3E6E /* Pods-BorderButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorderButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BorderButton_Tests/Pods-BorderButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4611203F596676A364630D6 /* Pods_BorderButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorderButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86D0B63355A12400782F954 /* Pods_BorderButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorderButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C065CCFF1B3E2B175C722F73 /* BorderButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BorderButton.podspec; path = ../BorderButton.podspec; sourceTree = "<group>"; };
-		C98EAF9908A892C19598186A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C065CCFF1B3E2B175C722F73 /* BorderButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BorderButton.podspec; path = ../BorderButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C98EAF9908A892C19598186A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EBA0F979D91B907120287B9D /* Pods-BorderButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BorderButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-BorderButton_Tests/Pods-BorderButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				9AAB469FF4FF875BDFFA3E6E /* Pods-BorderButton_Tests.debug.xcconfig */,
 				EBA0F979D91B907120287B9D /* Pods-BorderButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

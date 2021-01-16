@@ -1,0 +1,6 @@
+framework module Pods_BorderButton_Tests {
+  umbrella header "Pods-BorderButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "BorderButton",
+  "version": "0.1.0",
+  "summary": "Summary of custom BorderButton.",
+  "swift_versions": "5.0",
+  "description": "this repository help create convinient border button",
+  "homepage": "https://github.com/vancucit/BorderButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vancucit@gmail.com": "vancucit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vancucit@gmail.com/BorderButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BorderButton/Classes/**/*",
+  "swift_version": "5.0"
+}
